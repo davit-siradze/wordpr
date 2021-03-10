@@ -1,0 +1,443 @@
+/* background-color: #2D425D; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body {
+    background-color: #F2F2F0 ;
+}
+.topheader {
+    width: 100%;
+    height: 34px;
+    background-color: #2D425D;
+    
+}
+.left {
+    display: flex;
+    position: absolute;
+    left: 15%;
+    align-items: center;
+
+}
+.call, .mail , .different  {
+    color: #fff;
+    font: normal normal bold 16px/22px Noto Sans;
+}
+.mail, .different ,.winter {
+    margin-left: 35px;
+}
+.different {
+    border-bottom: 4px solid #F7CB2D;
+    cursor: pointer;
+}
+.winter {
+    width: 100px;
+    background-color: #fff;
+    align-items: center;
+    height: 34px;
+    display: flex;
+}
+.winter a {
+    font: normal normal bold 16px/22px Noto Sans;
+    color: #000;
+    margin-left: 10px;
+}
+
+.winter i{
+    margin-left: 5px;
+    color: #000;
+    font-size: 22px;
+}
+.summer {
+    margin-left: 10px;
+    display: flex;
+    
+}
+.summer i {
+    font-size: 22px;
+    color: #fff;
+}
+.summer a {
+    margin-left: 10px;
+    color: #fff;
+    font: normal normal bold 16px/22px Noto Sans;
+}
+.lang {
+    margin-left:200px;
+    display: flex;
+}
+.lang i {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.lang a {
+    color: #fff;
+    font: normal normal bold 16px/22px Noto Sans;
+}
+.header {
+    width: 80%;
+    background-color: #fff;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainheader {
+    height: 78px;
+    display: flex;
+    position:absolute;
+    align-items: center;
+    top: 5%;
+}
+.logo img {
+    width: 182px;
+}
+.dropnav {
+    float: left;
+    overflow: hidden;
+    margin-left:13px;
+}
+  
+.dropnav .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 2300;
+    transition: 0.213s ease-in;
+}
+  
+  
+.dropnav:hover .dropbtn {
+    transition: 0.213s ease-in;
+    background-color: #F7CB2D;
+    border-radius: 10px;
+}
+  
+  
+.dropmen {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropmen a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+}
+  
+.dropmen a:hover {
+    background-color: #ddd;
+}
+  
+.dropnav:hover .dropmen {
+    display: block;
+}
+.icon {
+    margin-left: 120px;
+}
+input[type=text]{
+    padding: 6px;
+    width: 180px;
+    font-size: 17px;
+    border-color: transparent;
+    outline: none;
+    transition: 0.486s ease-in;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+input[type=text]:focus {
+    border: 2px solid #F7CB2D;
+    transition: 0.486s ease-in;
+    border-radius: 15px;
+}
+.icbutton {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.icbutton i {
+    color: #919EAB;
+    font-size: 16px;
+}
+.booknow {
+    margin-left: 30px;
+}
+.booknow button {
+    width: 124px;
+    height: 36px;
+    background-color: #F7CB2D;
+    border: none;
+    outline: none;
+    font: normal normal bold 14px/19px Noto Sans;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.section1 {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+} 
+.backgroundimage {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.img {
+    background: transparent url('../img/welcome.jpg') 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 520px;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.9);
+}
+.backgroundimage h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: normal normal bold 48px/65px Noto Serif;
+    color: #fff;
+}
+.backgroundimage p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 859px;
+    font: normal normal normal 27px/37px Noto Serif;
+}
+.section2 {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+} 
+
+.rectimg {
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+
+}
+.rectimg img {
+    width: 570px;
+    margin-left: 100px;
+    border-radius: 14px;
+    transition: 0.543s ease-in;
+
+}
+.rectimg img:hover {
+    width: 580px ;
+    transition: 0.543s ease-in;
+}
+.reacttext {
+    margin-left: 80px;
+    width: 500px;
+    margin-top: 60px ;
+}
+.reacttext h1 {
+    font: normal normal bold 34px/46px Noto Serif;
+}
+.reacttext h3 {
+    font: normal normal normal 24px/33px Noto Sans;
+}
+.reacttext p {
+    margin-top: 20px;
+    font: normal normal normal 16px/22px Noto Sans;
+}
+.reacttext a {
+    margin-top: 20px;
+    font: normal normal bold 16px/22px Noto Sans;
+    color: #000;
+}
+.rights {
+    margin-left: 100px;
+}
+.reacttext2 {
+    display: flex;
+    margin-top: 80px;
+}
+.reacttxt2 {
+    
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.reacttxt2 h1 {
+    font: normal normal bold 34px/46px Noto Serif;
+}
+.reacttxt2 h3 {
+    font: normal normal normal 24px/33px Noto Sans;
+}
+.reacttxt2 p {
+    margin-top: 20px;
+    font: normal normal normal 16px/22px Noto Sans;
+}
+.reacttxt2 a {
+    margin-top: 20px;
+    font: normal normal bold 16px/22px Noto Sans;
+    color: #000;
+}
+.rectimg2 {
+    width: 570px;
+
+}
+.rectimg2 img {
+    width: 100%;
+    margin-left: 100px;
+    border-radius: 14px;
+}
+.labl {
+    position: absolute;
+    margin-top: 1px;
+    font: normal normal normal 12px/17px Noto Sans;
+    color: #DBDBDB;
+}
+input[type=date] {
+    content: '';
+    margin-top: 15px;
+    font: normal normal normal 14px/22px Noto Sans;
+    color:#000;
+    outline: none;
+    background-color: transparent;
+    border: transparent;
+    margin-left: 50px;
+}
+.labl1 {
+    margin-left: 50px;
+}
+input[type=number] {
+    color: #000;
+    outline: none;
+    border: none;
+}
+input[type=adult] {
+    width: 100px;
+    position: relative;
+    outline: none;
+    margin-top: 10px;
+    border: 1px solid #E3E3E3;
+    font: normal normal normal 14px/22px Noto Sans;
+    color: #DBDBDB;
+}
+.adultbtn {
+    margin-left: -5px;
+    color: #000;
+    font: normal normal bold 16px/22px Noto Sans;
+    border: 1px solid #E3E3E3;
+}
+.adult {
+    margin-left: 50px;
+}
+.frequent {
+    margin-bottom: 50px;
+}
+.section3 {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.freqtxt {
+    margin-left: 100px;
+    width: 500px;
+}
+.freqh1{
+    margin-top: 45px;
+    color: #000;
+    font: normal normal bold 34px/46px Noto Serif;
+}
+.whergud {
+    margin-top: 20px;
+    display: flex;
+    font: normal normal bold 40px/55px Noto Serif;
+    position: absolute;
+}
+
+.whertxt h2 {
+    margin-top: 26px;
+    margin-left: 100px;
+    font: normal normal bold 28px/38px Noto Sans;
+}
+.whertxt p {
+    margin-top: 20px;
+    margin-left: 100px;
+    font: normal normal normal 16px/22px Noto Sans;
+}
+.section4 {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+.webcamm{
+    width: 100%;
+    padding:40px;
+    background-color: #2B2428 ;
+}
+.imagtxt {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.imagtxt img {
+    background-color: #DBDBDB;
+    width: 300px;
+}
+.webtxt h1{
+    font: normal normal normal 24px/33px Noto Sans;
+    color: #F2F2F0;
+    margin-top: 10px;
+}
+.section5 {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    
+}
+.imggallery {
+    display: flex;
+}
+.imgwrap h1 {
+    margin-top: 50px;
+    margin-left: 100px;
+    font: normal normal bold 34px/46px Noto Serif;
+}
+.imgwrap img {
+    width: 759px;
+    height: 500px;
+    display: flex;
+}
+.imgwrap2 {
+    width: 100%;
+    margin-top: 96px;
+}
+.imgwrapwelc {
+    width: 500px;
+
+}
+.sabagiro {
+    width:500px ;
+    height: 245px;
+}
